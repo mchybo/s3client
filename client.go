@@ -9,7 +9,7 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/webrtcn/s3client/models"
+	"github.com/mchybo/s3client/models"
 )
 
 //Client s3 Client
