@@ -10,10 +10,11 @@ type GetBucketResponse struct {
 	XMLName     xml.Name `xml:"ListBucketResult"`
 	Name        string
 	Prefix      string
-	Marker      int
+	Marker      string
 	MaxKeys     int
 	IsTruncated bool
 	Contents    []GetBucketResponseContent
+	NextMarker  string
 }
 
 //GetBucketResponseContent Get Bucket Response Content
